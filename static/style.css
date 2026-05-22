@@ -1,0 +1,11 @@
+/* Dr. Insight — global stylesheet (supplemental to chat.html inline styles) */
+/* All primary styles are scoped in chat.html <style> block for zero-FOUC. */
+
+/* Global scrollbar theming for non-chat areas */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(0,255,208,0.2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,255,208,0.4); }
+
+/* Selection color */
+::selection { background: rgba(0,255,208,0.25); color: #e8f4f0; }
